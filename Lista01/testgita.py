@@ -1,1 +1,0 @@
-print('Czy teraz działa?')
