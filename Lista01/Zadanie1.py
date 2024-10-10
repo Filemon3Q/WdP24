@@ -10,7 +10,7 @@ def potega(a,n):
 def kwadrat(n):
     for i in range(n):
        for j in range(n): 
-          print ("*", end="")
+          print ("* ", end="") # Spacja po gwiazdce dla upiększenia
        print()
       
 def kwadrat2(n):
@@ -32,7 +32,7 @@ for i in range(10):
     print ("Przebieg:",i)
     print (20 * "-")
     if i <= 4:
-        kwadrat(3+2*i)
+        kwadrat(3 + 2 * i)
     else:
         kwadrat2(3 + (i - 5))
     print()
